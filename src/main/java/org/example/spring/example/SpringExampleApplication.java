@@ -6,6 +6,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @SpringBootApplication
 public class SpringExampleApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(SpringExampleApplication.class);
+        new SpringApplicationBuilder(SpringExampleApplication.class).run(args);
     }
 }
